@@ -771,11 +771,12 @@ label {
 .group-field {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -4%;
 }
 
 .name-field {
   width: 46%;
-  margin-right: 4%;
+  margin-left: 4%;
 }
 
 textarea#massage,
@@ -803,7 +804,7 @@ input#send-massage {
 
 .email-field {
   width: 46%;
-  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .forthwith-section {
@@ -922,4 +923,8 @@ span.bIcon {
 
 .a-box-item:nth-child(even) {
   background: beige;
+}
+
+input {
+  padding: 5px 10px;
 }
